@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Math Notes - Episode 1 | Mindbreak and Deathwishes</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Math Notes - Episode 1" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to my mind, though, arts and process." />
+<meta property="og:description" content="Welcome to my mind, though, arts and process." />
+<link rel="canonical" href="http://localhost:4000/Maths/Math%20Note%20-%20Episode%201.html" />
+<meta property="og:url" content="http://localhost:4000/Maths/Math%20Note%20-%20Episode%201.html" />
+<meta property="og:site_name" content="Mindbreak and Deathwishes" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Math Notes - Episode 1" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to my mind, though, arts and process.","headline":"Math Notes - Episode 1","url":"http://localhost:4000/Maths/Math%20Note%20-%20Episode%201.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Mindbreak and Deathwishes" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mindbreak and Deathwishes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/blog/">Blog Posts</a><a class="page-link" href="/"></a><a class="page-link" href="/projects/">Project Demo</a><a class="page-link" href="/Maths/Math%20Note%20-%20Episode%201.html">Math Notes - Episode 1</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Math Notes - Episode 1</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="math-notes---episode-1--">Math Notes - Episode 1  <!-- omit in toc --></h1>
+<h2 id="vector--dot-products-">Vector &amp; Dot products <!-- omit in toc --></h2>
+
+<h3 id="based-on-freya-tutorial-">Based on <a href="https://www.youtube.com/watch?v=MOYiVLEnhrw&amp;t=363s">Freya Tutorial</a> <!-- omit in toc --></h3>
+
+<p>Hey there. I decided to start a new passion for Maths :’).<br />
+Here are some notes taken on a base material offered to us by the great <strong><a href="https://twitter.com/FreyaHolmer?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Freya Holmer</a></strong>.</p>
+
+<p>Those <strong>personnal notes</strong> will follow the video timestamps.</p>
+
+<h3 id="content-">Content <!-- omit in toc --></h3>
+<ul>
+  <li><a href="#why-maths-">Why Maths ?</a></li>
+  <li><a href="#1d-vectors-aka-scalar-floats-numbers">1D Vectors (a.k.a Scalar, Floats, Numbers)</a></li>
+  <li><a href="#2d-vectors">2D Vectors</a></li>
+  <li><a href="#vector-normalization">Vector normalization</a></li>
+  <li><a href="#direction-to-point">Direction to point</a></li>
+  <li><a href="#length">Length</a></li>
+  <li><a href="#distance">Distance</a></li>
+  <li><a href="#point-along-a-direction">Point along a direction</a></li>
+  <li><a href="#radial-trigger">Radial Trigger</a></li>
+  <li><a href="#dot-product">Dot Product</a></li>
+  <li><a href="#assignements-">Assignements ?</a></li>
+  <li><a href="#personnal-maths-notes">Personnal Maths Notes</a></li>
+</ul>
+
+<hr />
+<h3 id="why-maths-">Why Maths ?</h3>
+<p>So… I decided to focus more myself on math after rewatching the whole <a href="https://www.youtube.com/watch?v=4hF0lYZQVcg&amp;list=PLh0j6fxciWbLVMwgAGx6UprZZQGvD-cYG">Astortion’s Devlog</a> by <a href="https://twitter.com/aarthificial">aarthificial</a>.
+Recently, he linked a <a href="https://www.youtube.com/watch?v=KPoeNZZ6H4s">video</a> about <strong>Procedural Animations</strong> from <a href="https://twitter.com/t3ssel8r">t3ssel8r</a> which impressed me a lot. I’ve seen this kind of work before, but those guys approch it from an analytical perspective and an elegant equation solving manner.</p>
+
+<p>That was enought to get me started. I’ve already a bunch of ressources on <strong>Game Dev Maths</strong> which I’ll probably link and store there one day. But for now on, let’s start with <em>freya’s stuff</em>.</p>
+
+<hr />
+<h3 id="1d-vectors-aka-scalar-floats-numbers">1D Vectors (a.k.a Scalar, Floats, Numbers)</h3>
+<p>We start working with <em>“one dimension vectors”</em> because the same principles apply to higher dimension vectors.</p>
+
+<p>In one dimension, the numbers are treated as <em>float</em>, <em>scalar</em> or <em>single value</em>.</p>
+
+<p>This is a number line :
+<img src="imgs/1D_numberLine.png" alt="number line image" /></p>
+<ul>
+  <li>It lies in one dimensional space</li>
+  <li>It help visualize integers and space in between (floating points)</li>
+  <li>Range from [-$\infty$, +$\infty$]</li>
+</ul>
+
+<p>Here numbers can be considered as <em>vectors</em>, <em>distance from origins</em>, <em>steps</em>…</p>
+<blockquote>
+  <p>They acts as the <em>representation of something</em>, and within the same context, numbers can be interpreted in multiples ways.</p>
+</blockquote>
+
+<p>They can be treated in the same manner than higher dimensional vectors:</p>
+<ul>
+  <li>Length (always positive) | Can be called 
+<strong>magnitude</strong>
+    <pre><code class="language-C#">  # x is a one dimension vector
+  abs(x) = length # &gt; 0
+</code></pre>
+  </li>
+  <li>Direction (-1 or 1) | Called <strong>sign</strong> in one dimension
+    <pre><code class="language-C#">  # x is a one dimension vector
+  sign(x) = 1, -1 or error
+</code></pre>
+  </li>
+  <li>Distance (Signed Distance exists aswell !)
+    <pre><code class="language-C#">  # a and b are one dimension vectors
+  dist(a, b) = |a - b| (or |b - a|)
+  dist(a,b) = abs(a - b)
+  dist(a,b) = abs(b - a)
+  #...
+</code></pre>
+  </li>
+  <li>Addition (or Substraction)<br />
+<img src="imgs/1D_Vector_Add.PNG" alt="Addition Vizualisation" /></li>
+</ul>
+
+<blockquote>
+  <p>In this context :</p>
+  <ul>
+    <li>Addition is an offset</li>
+    <li>Multiplication is a scale</li>
+  </ul>
+</blockquote>
+
+<p>With this basic knowledge, let’s move one dimension higher !
+___</p>
+<h3 id="2d-vectors">2D Vectors</h3>
+<hr />
+<h3 id="vector-normalization">Vector normalization</h3>
+<hr />
+<h3 id="direction-to-point">Direction to point</h3>
+<hr />
+<h3 id="length">Length</h3>
+<hr />
+<h3 id="distance">Distance</h3>
+<hr />
+<h3 id="point-along-a-direction">Point along a direction</h3>
+<hr />
+<h3 id="radial-trigger">Radial Trigger</h3>
+<hr />
+<h3 id="dot-product">Dot Product</h3>
+<hr />
+<h3 id="assignements-">Assignements ?</h3>
+<hr />
+<h3 id="personnal-maths-notes">Personnal Maths Notes</h3>
+<ul>
+  <li>Basics
+    <blockquote>
+      <p>Addition to Substraction : $a+b = a + (-b)$</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Multiply to Divide : $^a/_b = a.(^1/_b)$</p>
+    </blockquote>
+  </li>
+</ul>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Mindbreak and Deathwishes</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Mindbreak and Deathwishes</li><li><a class="u-email" href="mailto:exyde@protonmail.com">exyde@protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Exyde"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Exyde</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Welcome to my mind, though, arts and process.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
