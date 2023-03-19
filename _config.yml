@@ -33,6 +33,9 @@ permalink: /:collection/:year-:month-:day-:title:output_ext
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
 plugins:
   - jekyll-feed
 

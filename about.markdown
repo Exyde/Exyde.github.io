@@ -27,7 +27,7 @@ Hello there. We will have a little presentation __here__.
       - Can I do more ?
         - And more
           - And more
-            - and more :D
+            - and more :D 
 
 --- 
 
