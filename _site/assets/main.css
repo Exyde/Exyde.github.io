@@ -194,3 +194,6 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+.site-title { color: orangered; }
+.site-title:visited { color: orangered; }

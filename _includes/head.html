@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png | relative url">
   {% feed_meta %} 
   {% if jekyll.environment == 'production' and site.google_analytics %} 
     {% include google-analytics.html %} 
@@ -18,7 +19,7 @@
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="{{ '/assets/images/favicon/favicon-32x32.png' | relative_url }}"
+    href="{{ 'favicon-32x32.png' | relative_url }}"
   />
   <link
     rel="icon"
