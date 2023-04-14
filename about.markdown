@@ -1,19 +1,15 @@
 ---
 layout: page
-title: About
+title: EntryPoint
 permalink: /about/
 ---
 
-# About page
-
-Hello there. We will have a little presentation __here__.
+# Hello there.
 
 ## I'm Sly
-### A Game *Developper*
-#### And also a *designer*
-##### and a sound *maker*
-###### and an *artist*... *and so much more...*
-
+### A Game *Developper* and *Designer*
+#### and a sound *maker*
+##### and an *artist*... *and so much more...*
 
 #### Let's talk about stuff like:
 - Demons
@@ -47,7 +43,7 @@ Hello there. We will have a little presentation __here__.
 - Use [..] (2 spaces) for creating a *__soft break__*
 
 
-<!--Yo  -->
+<!--Yo  this is a comment but it's accesible in source page-->
 
 
 > "Use ">" for creating a new *__BlockQuote__* !"
@@ -74,6 +70,23 @@ You can find the source code for Minima at GitHub:
 You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
+
+____
+## Gallery 
+### Escale
+![SkyboxLerp](assets/images/portofolio/Escale/SkyboxLerp_10s.gif) 
+**_Skybox Lerping (Cursed because of gif compression)_**
+
+### Kayak 2 Rue
+
+![ToonShading](/assets/images/portofolio/K2R/ToonShadingDemoLight.gif)
+**_Basic Toon Shader Demo_**
+
+![Mesh Generation](/assets/images/portofolio/K2R/mesh32.gif)
+
+### Solar Winds
+
+![ee](assets/images/portofolio/SW/Neige.PNG)
 
 
 [jekyll-organization]: https://github.com/jekyll
