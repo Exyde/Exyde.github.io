@@ -6,7 +6,7 @@ permalink: /projects/
 
 For this demo-repo-portfolio thing I can use github topics tag, and select them here.
 
-[Accéder au portfolio](./Porfolio/index.html)
+[Accéder au portfolio](./Portfolio/index.html)
 
 
 {% for repo in site.github.public_repositories %}
