@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my mind, though, arts and process.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: ExydeSlyvers
+twitter_username: ExydeSlyvers
 github_username:  Exyde
 
 #Show posts on main page
@@ -32,10 +32,11 @@ show_excerpts:  true
 permalink: /:collection/:year-:month-:day-:title:output_ext
 
 # Build settings
-theme: minima
-minima:
-  bskin: dark
-  date_format: "%b %-d, %Y"
+#remote_theme: jekyll/minima
+#minima:
+#  bskin: dark
+#  date_format: "%b %-d, %Y"
+
 plugins:
   - jekyll-feed
 
