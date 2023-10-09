@@ -32,10 +32,7 @@ show_excerpts:  true
 permalink: /:collection/:year-:month-:day-:title:output_ext
 
 # Build settings
-#remote_theme: jekyll/minima
-#minima:
-#  bskin: dark
-#  date_format: "%b %-d, %Y"
+theme: minima
 
 plugins:
   - jekyll-feed
